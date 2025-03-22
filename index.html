@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftos - Navbar & Carousel</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         
+    </style>
+</head>
+<body>
+    <a class="logo" href="#" class="h1">GIFTOS</a>
+
+    <!-- Navigation Bar -->
+     <nav class="navbar">
+        <div class="container">
+            <!-- Toggle Menu Button -->
+             <div class="menu-toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#1" class="active">HOME</a></li>
+                <li><a href="#2">SHOP</a></li>
+                <li><a href="#3">WHY US</a></li>
+                <li><a href="#7">TESTIMONIAL</a></li>
+                <li><a href="#6">CONTACT US</a></li>
+                <li> <a href="#6">🔑 LOGIN</a></li>
+                <li><a href="#3">🛒</a></li>
+                <li><a href="#1">🔍</a></li>
+            </ul>
+        </div>
+    </nav> 
+   
+    
+    <!-- Carousel Section -->
+     <div class="body1" id="1">
+    <div class="carousel">
+        <div class="carousel-slide active">
+            <div class="carousel-content">
+                <h1>Welcome To Our Gift Shop</h1>
+                <p>Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia suscipit.</p>
+                <button class="contact-btn">Contact Us</button>
+            </div>
+            <div class="carousel-image">
+                <img src="./images/slider-img.png" alt="Gift Shop">
+            </div>
+        </div>
+        <div class="carousel-slide">
+            <div class="carousel-content">
+                <h1>Find the Perfect Gift</h1>
+                <p>Discover unique and thoughtful gifts for every occasion.</p>
+                <button class="contact-btn">Shop Now</button>
+            </div>
+            <div class="carousel-image">
+                <img src="./images/slider-img.png" alt="Shopping Bags">
+            </div>
+        </div>
+        <div class="carousel-slide">
+            <div class="carousel-content">
+                <h1>Find the Perfect Gift-3</h1>
+                <p>Discover unique and thoughtful gifts for every occasion.</p>
+                <button class="contact-btn">Shop Now</button>
+            </div>
+            <div class="carousel-image">
+                <img src="./images/slider-img.png" alt="Shopping Bags">
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+</div>
+
+
+    <!------------------products------------------  -->
+    <div id="2">
+    <h2 class="title">LATEST PRODUCTS</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <span class="new-label">New</span>
+            <img src="./images/p1.png" class="p1" alt="Ring">
+            <h3>Ring</h3>
+            <p class="price">Price <span>$200</span></p>
+        </div>
+
+        <div class="product-card">
+            <span class="new-label">New</span>
+            <img src="./images/p2.png" class="p1"alt="Watch">
+            <h3>Watch</h3>
+            <p class="price">Price <span>$300</span></p>
+        </div>
+
+        <div class="product-card">
+            <span class="new-label">New</span>
+            <img src="./images/p3.png"class="p1" alt="Teddy Bear">
+            <h3>Teddy Bear</h3>
+            <p class="price">Price <span>$110</span></p>
+        </div>
+
+        <div class="product-card">
+            <span class="new-label">New</span>
+            <img src="./images/p4.png"class="p1" alt="Flower Bouquet">
+            <h3>Flower Bouquet</h3>
+            <p class="price">Price <span>$45</span></p>
+        </div>
+
+        <div class="product-card">
+            <span class="new-label">New</span>
+            <img src="./images/p5.png"class="p1" alt="Teddy Bear">
+            <h3>Teddy Bear</h3>
+            <p class="price">Price <span>$95</span></p>
+        </div>
+
+        <div class="product-card">
+            <span class="new-label">New</span>
+            <img src="./images/p6.png"class="p1" alt="Flower Bouquet">
+            <h3>Flower Bouquet</h3>
+            <p class="price">Price <span>$70</span></p>
+        </div>
+
+        <div class="product-card">
+            <span class="new-label">New</span>
+            <img src="./images/p7.png"class="p1" alt="Watch">
+            <h3>Watch</h3>
+            <p class="price">Price <span>$400</span></p>
+        </div>
+
+        <div class="product-card">
+            <span class="new-label">New</span>
+            <img src="./images/p8.png"class="p1" alt="Ring">
+            <h3>Ring</h3>
+            <p class="price">Price <span>$450</span></p>
+        </div>
+    </div>
+</div>
+    <!-- ---------------------------banner------------------ -->
+     <div class="banner1" id="3">
+    <section class="banner">
+        <div class="image">
+            <img src="./images/saving-img.png" alt="Shopping Girl">
+        </div>
+        <div class="content">
+            <h2>BEST SAVINGS ON NEW ARRIVALS</h2>
+            <p>Get the best deals on our latest products. Enjoy amazing discounts and premium quality.</p>
+            <div class="buttons">
+                <button class="buy-now">Buy Now</button>
+                <button class="see-more">See More</button>
+            </div>
+        </div>
+        
+    </section>
+</div>
+<!-- ---------------------features------------ -->
+<section class="features">
+    <div class="feature-box">
+        <img src="./images/free.svg" alt="">
+        <h3>Fast Delivery</h3>
+        <p>Get your orders delivered quickly and safely.</p>
+    </div>
+    <div class="feature-box">
+        <img src="./images/truck.svg" alt="">
+        <h3>Free Shipping</h3>
+        <p>Enjoy free shipping on all orders.</p>
+    </div>
+    <div class="feature-box">
+        <img src="./images/high-quality.svg" alt="">
+        <h3>Best Quality</h3>
+        <p>We provide the best quality products for you.</p>
+    </div>
+</section>
+<!-- ------------------------------- -->
+<div class="body5">
+
+<div class="container1">
+    <div class="left">
+        <img src="./images/gifts.png" alt="Gifts and balloons">
+    </div>
+    <div class="right">
+        <h1>GIFTS FOR YOUR LOVED ONES</h1>
+        <p>Omnis ex nam laudantium odit illum harum, excepturi accusamus at corrupti, velit blanditiis unde perspiciatis.</p>
+        <div class="buttons">
+            <button class="buy-btn">Buy Now</button>
+            <button class="more-btn">See More</button>
+        </div>
+    </div>
+</div>
+</div>
+<!-- ------------------------------- -->
+ <div class="body6" id="6">
+
+    <div class="container6">
+        <h1>CONTACT US</h1>
+        <div class="contact-section">
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9990135793887!2d2.292292915674541!3d48.85837360887174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ef7d0c60b55%3A0x40b82c3688c9460!2sEiffel%20Tower!5e0!3m2!1sen!2sin!4v1615282618871!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="100%"
+                    padding-right="50px" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="tel" name="phone" placeholder="Phone" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!--  -->
+
+<div class="body7" id="7">
+    <div class="slider-container">
+        <button class="nav-button prev" onclick="prevSlide()">&#8249;</button>
+        <div class="slider-box">
+            <div class="slides">
+                <div class="slide">
+                    <span class="quote-icon">&#8220;</span>
+                    <div class="slider-content">
+                        <div class="user-name">Brad Johns</div>
+                        <div class="description">Default model text</div>
+                        <div class="slider-text">Various editors now use Lorem Ipsum as their default model text...</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <span class="quote-icon">&#8220;</span>
+                    <div class="slider-content">
+                        <div class="user-name">Jane Doe</div>
+                        <div class="description">Sample text</div>
+                        <div class="slider-text">Lorem Ipsum has been the industry's standard dummy text...</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <span class="quote-icon">&#8220;</span>
+                    <div class="slider-content">
+                        <div class="user-name">Jane Doe-2</div>
+                        <div class="description">Sample text</div>
+                        <div class="slider-text">Lorem Ipsum has been the industry's standard dummy text...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="nav-button next" onclick="nextSlide()">&#8250;</button>
+    </div>
+</div>
+<!-- foooter -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-section about">
+            <h3>ABOUT US</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="footer-section newsletter">
+            <h3>Newsletter</h3>
+            <input type="email" placeholder="Enter your email">
+            <button>SUBSCRIBE</button>
+        </div>
+        <div class="footer-section need-help">
+            <h3>NEED HELP</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="footer-section contact">
+            <h3>CONTACT US</h3>
+            <p>📍 Gb road 123 London UK</p>
+            <p>📞 +01 12345678901</p>
+            <p>📧 demo@gmail.com</p>
+        </div>
+    </div>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+</footer>
+
+    
+<script src="script.js"></script>
+
+</body>
+</html>
